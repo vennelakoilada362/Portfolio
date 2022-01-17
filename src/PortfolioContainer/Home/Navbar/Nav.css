@@ -1,4 +1,26 @@
 .navbar {
-  width: 100%;
+  width: 20%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
   height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left-logo img {
+  width: 50px;
+}
+
+.navbar-right {
 }

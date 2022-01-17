@@ -5,36 +5,36 @@ function Nav(props) {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="navbar-left">
-          <div className="navbar-left-logo">
-            <img
-              src={require("../../../assets/Home/portfolio.png")}
-              alt="logo"
-            />
-          </div>
-          <ul>
-            <ul className="navbar-right">
-              <li>
-                <a href="" />
-                Home
-              </li>
-              <li>
-                <a href="" />
-                About
-              </li>
-              <li>
-                <a href="" />
-                Skills
-              </li>
-              <li>
-                <a href="" />
-                Resume
-              </li>
-              <li>
-                <a href="" />
-                Contact
-              </li>
-            </ul>
+        <div className=".navbar-container">
+          <ul className="navbar-left">
+            <div className="navbar-left-logo">
+              <img
+                src={require("../../../assets/Home/portfolio.png")}
+                alt="logo"
+              />
+            </div>
+          </ul>
+          <ul className="navbar-right">
+            <li>
+              <a href="" />
+              Home
+            </li>
+            <li>
+              <a href="" />
+              About
+            </li>
+            <li>
+              <a href="" />
+              Skills
+            </li>
+            <li>
+              <a href="" />
+              Resume
+            </li>
+            <li>
+              <a href="" />
+              Contact
+            </li>
           </ul>
         </div>
       </div>
