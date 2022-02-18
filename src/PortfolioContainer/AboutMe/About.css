@@ -1,0 +1,22 @@
+.a {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.a-left {
+  flex: 1;
+}
+
+.a-right {
+  flex: 1;
+}
+
+/* .a-card {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../../assets/Home/profile.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+} */

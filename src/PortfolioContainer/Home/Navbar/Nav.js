@@ -5,7 +5,7 @@ function Nav(props) {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className=".navbar-container">
+        <div className="navbar-container">
           <ul className="navbar-left">
             <div className="navbar-left-logo">
               <img
@@ -15,26 +15,21 @@ function Nav(props) {
             </div>
           </ul>
           <ul className="navbar-right">
-            <li>
-              <a href="" />
-              Home
-            </li>
-            <li>
-              <a href="" />
-              About
-            </li>
-            <li>
-              <a href="" />
-              Skills
-            </li>
-            <li>
-              <a href="" />
-              Resume
-            </li>
-            <li>
-              <a href="" />
-              Contact
-            </li>
+            <h5 className="home">
+              <a href="./PortfolioContainer/Home/Home">Home</a>
+            </h5>
+            <h5 className="about">
+              <a href="./PortfolioContainer/About/About">About</a>
+            </h5>
+            <h5 className="skills">
+              <a href="./PortfolioContainer/Skills/Skills">Skills</a>
+            </h5>
+            <h5 className="resume">
+              <a href="./PortfolioContainer/Resume/Resume">Resume</a>
+            </h5>
+            <h5 className="contact">
+              <a href="./PortfolioContainer/Contact/Contact">Contact</a>
+            </h5>
           </ul>
         </div>
       </div>
