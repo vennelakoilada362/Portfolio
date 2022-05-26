@@ -54,3 +54,39 @@
 /* .navbar-right li a {
   display: flex;
 } */
+
+@media screen and (max-width: 910px) {
+  .navbar {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .navbar {
+    margin: 0 !important;
+  }
+  .container {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-left-logo {
+    margin: 25px 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .container {
+    width: 90%;
+  }
+}

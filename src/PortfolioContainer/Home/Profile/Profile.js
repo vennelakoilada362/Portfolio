@@ -37,7 +37,7 @@ function Profile(props) {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Ethusiastic Dev",
+                    "Enthusiastic Dev",
                     1000,
                     "Full Stack Developer",
                     1000,
@@ -55,7 +55,10 @@ function Profile(props) {
           </div>
           <div className="profile-options">
             <button className="btn primary-btn">{""}Hire Me</button>
-            <a href="resume.jpg" download="Vennela resume.jpg">
+            <a
+              href="../../assets/home/resume.jpg"
+              download="Vennela resume.jpg"
+            >
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
